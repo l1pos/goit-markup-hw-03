@@ -207,9 +207,13 @@ section h2 {
     margin: 0;
 }
 
-.values-section .container ul {
+.values-section .values-list {
     display: flex;
     gap: 24px;
+}
+
+.values-item {
+    width: calc((100% - 3 * 24px) / 4);
 }
 
 .team-section {
