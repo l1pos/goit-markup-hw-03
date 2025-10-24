@@ -212,6 +212,17 @@ section h2 {
     gap: 24px;
 }
 
+.section-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;
+    margin-bottom: 72px;
+}
+
 .values-item {
     width: calc((100% - 3 * 24px) / 4);
 }
@@ -220,7 +231,7 @@ section h2 {
     background-color: #F4F4FD;
 }
 
-.team-section .container ul {
+.team-list {
     display: flex;
     justify-content: center;
     gap: 24px;
