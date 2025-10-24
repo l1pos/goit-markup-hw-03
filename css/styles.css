@@ -292,13 +292,9 @@ section h2 {
 }
 
 .footer-logo {
-    color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
-}
-
-.footer-logo .logo-part {
-    color: var(--light-color);
+    color: #4d5ae5;
 }
 
 .footer-text {
